@@ -1,3 +1,20 @@
-body {
+
+body,
+h1 {
   margin: 0;
 }
+
+body {
+  background: url("./img/stars.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "Star Wars"; 
+  src: url("./fonts/STARWARS.woff") format("woff"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+
